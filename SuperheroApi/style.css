@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-type{
+    display: inline-block;
+    width: 200px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.button-types{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+}
+
+
+.random-button{
+    display: block;
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+.container-hero{
+    display: flex;
+    flex-direction: row;
+    line-height: 2px;
+    line-height: 35px;
+
+}
+
+.picture-container{
+    margin-right: 20px;
+}
+
+
+
+button{
+    border-radius: 20px;
+    background-color: rgb(132, 129, 129);
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+input{
+    border-radius: 20px;
+    padding-left: 10px;
+}
